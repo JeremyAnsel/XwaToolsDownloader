@@ -2,7 +2,7 @@ https://github.com/JeremyAnsel/ColorHexConverter/releases/download/v1.0.0/ColorH
 https://github.com/JeremyAnsel/OPTech/releases/download/v2.0.20/OPTech-2.0.20.zip
 https://github.com/JeremyAnsel/XwaDatEditor/releases/download/v1.0.5/XwaDatEditor-1.0.5.zip
 https://github.com/JeremyAnsel/XwaCbmEditor/releases/download/v1.0.5/XwaCbmEditor-1.0.5.zip
-https://github.com/JeremyAnsel/XwaOptEditor/releases/download/v1.0.43/XwaOptEditor-1.0.43.zip
+https://github.com/JeremyAnsel/XwaOptEditor/releases/download/v1.0.45/XwaOptEditor-1.0.45.zip
 https://github.com/JeremyAnsel/XwaImcEditor/releases/download/v1.0.4/XwaImcEditor-1.0.4.zip
 https://github.com/JeremyAnsel/XwaSnmConverter/releases/download/v1.0.3/XwaSnmConverter-1.0.3.zip
 https://github.com/JeremyAnsel/ZtPatcher/releases/download/v1.0.8/ZtCreatorPatcher-1.0.8.zip
