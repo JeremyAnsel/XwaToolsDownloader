@@ -5,4 +5,5 @@ https://github.com/JeremyAnsel/XwaCbmEditor/releases/download/v1.0.7/XwaCbmEdito
 https://github.com/JeremyAnsel/XwaOptEditor/releases/download/v1.0.51/XwaOptEditor-1.0.51.zip
 https://github.com/JeremyAnsel/XwaImcEditor/releases/download/v1.0.6/XwaImcEditor-1.0.6.zip
 https://github.com/JeremyAnsel/XwaSnmConverter/releases/download/v1.0.5/XwaSnmConverter-1.0.5.zip
+https://github.com/JeremyAnsel/XwaSpecRciEditor/releases/download/v1.0.0/XwaSpecRciEditor.zip
 https://github.com/JeremyAnsel/ZtPatcher/releases/download/v1.0.8/ZtCreatorPatcher-1.0.8.zip
