@@ -1,0 +1,47 @@
+﻿<Window x:Class="XwaToolsLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XwaToolsLauncher"
+        mc:Ignorable="d"
+        Title="Xwa Tools Launcher"
+        Height="450" Width="800"
+        UseLayoutRounding="True">
+    <Window.Resources>
+        <CollectionViewSource x:Key="toolItems" Source="{Binding Tools}">
+            <CollectionViewSource.GroupDescriptions>
+                <PropertyGroupDescription PropertyName="Category" />
+            </CollectionViewSource.GroupDescriptions>
+        </CollectionViewSource>
+    </Window.Resources>
+    <ListView ItemsSource="{Binding Source={StaticResource toolItems}}">
+        <ListView.GroupStyle>
+            <GroupStyle>
+                <GroupStyle.HeaderTemplate>
+                    <DataTemplate>
+                        <TextBlock FontWeight="Bold" Text="{Binding Name}"/>
+                    </DataTemplate>
+                </GroupStyle.HeaderTemplate>
+            </GroupStyle>
+        </ListView.GroupStyle>
+        <ListView.View>
+            <GridView>
+                <GridView.Columns>
+                    <GridViewColumn Header="Category" DisplayMemberBinding="{Binding Category}" />
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Launch">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Width="250" Click="ToolButton_Click">
+                                    <TextBlock Text="{Binding Name, StringFormat='Launch {0}'}" />
+                                </Button>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Version" DisplayMemberBinding="{Binding VersionInfo.FileVersion}" />
+                </GridView.Columns>
+            </GridView>
+        </ListView.View>
+    </ListView>
+</Window>
