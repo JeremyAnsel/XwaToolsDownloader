@@ -11,5 +11,5 @@ https://github.com/JeremyAnsel/XwaImcEditor/releases/download/v1.0.6/XwaImcEdito
 https://github.com/JeremyAnsel/XwaSnmConverter/releases/download/v1.0.11/XwaSnmConverter-1.0.11.zip
 https://github.com/JeremyAnsel/XwaSpecRciEditor/releases/download/v1.0.0/XwaSpecRciEditor.zip
 https://github.com/JeremyAnsel/ZtPatcher/releases/download/v1.0.14/ZtCreatorPatcher-1.0.14.zip
-https://github.com/JeremyAnsel/XwaExePatcher/releases/download/v1.0.27/XwaExePatcher-1.0.27.zip
+https://github.com/JeremyAnsel/XwaExePatcher/releases/download/v1.0.32/XwaExePatcher-1.0.32.zip
 https://github.com/JeremyAnsel/XwaBackupRestorer/releases/download/v1.0.7/XwaBackupRestorer-1.0.7.zip
