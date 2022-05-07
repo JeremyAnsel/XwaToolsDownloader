@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XwaToolsDownloader", "XwaToolsDownloader\XwaToolsDownloader.csproj", "{5F52946E-DE18-40C8-88FF-5BE78539AD5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XwaToolsDownloader", "XwaToolsDownloader\XwaToolsDownloader.csproj", "{F3AE3511-951F-4DE7-B626-46D21572536F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5F52946E-DE18-40C8-88FF-5BE78539AD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F52946E-DE18-40C8-88FF-5BE78539AD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F52946E-DE18-40C8-88FF-5BE78539AD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F52946E-DE18-40C8-88FF-5BE78539AD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AE3511-951F-4DE7-B626-46D21572536F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AE3511-951F-4DE7-B626-46D21572536F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AE3511-951F-4DE7-B626-46D21572536F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AE3511-951F-4DE7-B626-46D21572536F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E265AF2A-35A0-462B-A658-DBCC1F8F7879}
 	EndGlobalSection
 EndGlobal

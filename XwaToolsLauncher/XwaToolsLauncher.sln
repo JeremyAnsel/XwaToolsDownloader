@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31229.75
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XwaToolsLauncher", "XwaToolsLauncher\XwaToolsLauncher.csproj", "{97E61AE2-C28B-4CCA-A8D1-30DB3AD19EC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XwaToolsLauncher", "XwaToolsLauncher\XwaToolsLauncher.csproj", "{F6D0039C-19BC-40C2-B29A-2FA48DD54D31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{97E61AE2-C28B-4CCA-A8D1-30DB3AD19EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97E61AE2-C28B-4CCA-A8D1-30DB3AD19EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97E61AE2-C28B-4CCA-A8D1-30DB3AD19EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97E61AE2-C28B-4CCA-A8D1-30DB3AD19EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D0039C-19BC-40C2-B29A-2FA48DD54D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D0039C-19BC-40C2-B29A-2FA48DD54D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D0039C-19BC-40C2-B29A-2FA48DD54D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D0039C-19BC-40C2-B29A-2FA48DD54D31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4DAC81B5-DC2A-4E7F-A9C1-B6BF8908287E}
+		SolutionGuid = {62369DD2-DA6A-4996-BA78-C5E0194A3543}
 	EndGlobalSection
 EndGlobal
