@@ -12,5 +12,6 @@ https://github.com/JeremyAnsel/XwaSnmConverter/releases/download/v1.0.13/XwaSnmC
 https://github.com/JeremyAnsel/XwaSpecRciEditor/releases/download/v1.1.0/XwaSpecRciEditor.zip
 https://github.com/JeremyAnsel/ZtPatcher/releases/download/v1.0.16/ZtCreatorPatcher-1.0.16.zip
 https://github.com/JeremyAnsel/XwaOptFlatTexturesFixer/raw/main/XwaOptFlatTexturesFixer/zip/XwaOptFlatTexturesFixer.zip
+https://github.com/JeremyAnsel/XwaOpzTrianglesFixer/raw/main/XwaOpzTrianglesFixer/zip/XwaOpzTrianglesFixer.zip
 https://github.com/JeremyAnsel/XwaExePatcher/releases/download/v1.0.37/XwaExePatcher-1.0.37.zip
 https://github.com/JeremyAnsel/XwaBackupRestorer/releases/download/v1.0.10/XwaBackupRestorer-1.0.10.zip
