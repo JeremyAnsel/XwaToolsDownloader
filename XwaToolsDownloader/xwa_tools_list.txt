@@ -6,7 +6,7 @@ https://github.com/JeremyAnsel/XwaDatEditor/releases/download/v1.0.22/XwaDatEdit
 https://github.com/JeremyAnsel/XwaCbmEditor/releases/download/v1.0.11/XwaCbmEditor-1.0.11.zip
 https://github.com/JeremyAnsel/XwaHullIconGenerator/releases/download/v1.0.7/XwaHullIconGenerator-1.0.7.zip
 https://github.com/JeremyAnsel/XwaMission3DViewer/releases/download/v1.0.11/XwaMission3DViewer-1.0.11.zip
-https://github.com/JeremyAnsel/XwaOptEditor/releases/download/v1.0.137/XwaOptEditor-1.0.137.zip
+https://github.com/JeremyAnsel/XwaOptEditor/releases/download/v1.0.139/XwaOptEditor-1.0.139.zip
 https://github.com/JeremyAnsel/XwaImcEditor/releases/download/v1.0.8/XwaImcEditor-1.0.8.zip
 https://github.com/JeremyAnsel/XwaSnmConverter/releases/download/v1.0.13/XwaSnmConverter-1.0.13.zip
 https://github.com/JeremyAnsel/XwaSpecRciEditor/releases/download/v1.1.0/XwaSpecRciEditor.zip
