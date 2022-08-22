@@ -6,8 +6,8 @@ XwaToolsDownloader runs on Windows 32/64 bits with the .NET framework 4.8.
 
 1) Run XwaToolsDownloader.exe.
 
-2) It will download the tools list ( "xwa_tools_list.txt" ) from GitHub. To redownload the list, delete the "xwa_tools_list.txt" file.
+2) It will download the tools list ( "xwa_tools_list.txt" ) from GitHub.
 
-3) It will create a directory named "_archives" and download the tools into this directory. Only the new tools are downloaded.
+3) It will create a directory named "_archives" and download the tools into this directory.
 
-4) It will extract the tools. Only the new tools are extracted.
+4) It will extract the tools. A warning will be shown if a tool directory already exist.

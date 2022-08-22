@@ -22,7 +22,13 @@ namespace XwaToolsDownloader
                 Console.WriteLine();
 
                 DownloadToolsList();
-                CreateArchivesDirectoryIfNotExist();
+
+                if (!File.Exists(ToolsListFileName))
+                {
+                    throw new FileNotFoundException(null, ToolsListFileName);
+                }
+
+                CreateArchivesDirectory();
                 DownloadTools();
                 ExtractTools();
             }
@@ -30,16 +36,19 @@ namespace XwaToolsDownloader
             {
                 Console.WriteLine(ex);
             }
+
+            Console.WriteLine("Press any key to continue");
+            Console.ReadKey(true);
         }
 
         static void DownloadToolsList()
         {
+            Console.WriteLine("Download Tools List");
+
             if (File.Exists(ToolsListFileName))
             {
-                return;
+                File.Delete(ToolsListFileName);
             }
-
-            Console.WriteLine("Download Tools List");
 
             using (var client = new WebClient())
             {
@@ -51,14 +60,15 @@ namespace XwaToolsDownloader
             Console.WriteLine();
         }
 
-        static void CreateArchivesDirectoryIfNotExist()
+        static void CreateArchivesDirectory()
         {
+            Console.WriteLine("Create Archives Directory");
+
             if (Directory.Exists(ArchivesDirectory))
             {
-                return;
+                Directory.Delete(ArchivesDirectory, true);
             }
 
-            Console.WriteLine("Create Archives Directory");
             Directory.CreateDirectory(ArchivesDirectory);
             Console.WriteLine();
         }
@@ -88,11 +98,6 @@ namespace XwaToolsDownloader
                     string name = Path.GetFileName(fileName);
                     string path = Path.Combine(ArchivesDirectory, name);
 
-                    if (File.Exists(path))
-                    {
-                        continue;
-                    }
-
                     Console.WriteLine(name);
                     client.DownloadFile(fileName, path);
                     UpdateZipLastWriteTime(path);
@@ -108,10 +113,11 @@ namespace XwaToolsDownloader
 
             foreach (string fileName in Directory.EnumerateFiles(ArchivesDirectory, "*.zip"))
             {
-                string name = Path.GetFileNameWithoutExtension(fileName);
+                string name = GetFileNameWithoutVersion(fileName);
 
                 if (Directory.Exists(name))
                 {
+                    Console.WriteLine($"{name} already exists. Please remove it to install the latest version.");
                     continue;
                 }
 
@@ -121,6 +127,20 @@ namespace XwaToolsDownloader
             }
 
             Console.WriteLine();
+        }
+
+        static string GetFileNameWithoutVersion(string path)
+        {
+            string name = Path.GetFileNameWithoutExtension(path);
+
+            int index = name.LastIndexOf('-');
+
+            if (index != -1)
+            {
+                name = name.Substring(0, index);
+            }
+
+            return name;
         }
 
         static void UpdateZipLastWriteTime(string path)
