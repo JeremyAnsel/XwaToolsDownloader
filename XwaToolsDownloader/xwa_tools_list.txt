@@ -1,6 +1,6 @@
 https://github.com/JeremyAnsel/BinHexEdit/releases/download/v2.1.0/BinHexEdit.zip
 https://github.com/JeremyAnsel/ColorHexConverter/releases/download/v1.1.0/ColorHexConverter.zip
-https://github.com/JeremyAnsel/OPTech/releases/download/v2.0.102/OPTech-2.0.102.zip
+https://github.com/JeremyAnsel/OPTech/releases/download/v2.0.104/OPTech-2.0.104.zip
 https://github.com/JeremyAnsel/XwaOpter/releases/download/v2.6.0/XwaOpter.zip
 https://github.com/JeremyAnsel/XwaDatEditor/releases/download/v1.0.28/XwaDatEditor-1.0.28.zip
 https://github.com/JeremyAnsel/XwaCbmEditor/releases/download/v1.0.15/XwaCbmEditor-1.0.15.zip
