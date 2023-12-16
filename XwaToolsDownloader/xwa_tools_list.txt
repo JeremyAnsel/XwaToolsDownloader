@@ -4,7 +4,7 @@ https://github.com/JeremyAnsel/OPTech/releases/download/v2.0.120/OPTech-2.0.120.
 https://github.com/JeremyAnsel/XwaOpter/releases/download/v2.6.0/XwaOpter.zip
 https://github.com/JeremyAnsel/XwaDatEditor/releases/download/v1.0.38/XwaDatEditor-1.0.38.zip
 https://github.com/JeremyAnsel/XwaCbmEditor/releases/download/v1.0.21/XwaCbmEditor-1.0.21.zip
-https://github.com/JeremyAnsel/XwaHullIconGenerator/releases/download/v1.0.11/XwaHullIconGenerator-1.0.11.zip
+https://github.com/JeremyAnsel/XwaHullIconGenerator/releases/download/v1.0.13/XwaHullIconGenerator-1.0.13.zip
 https://github.com/JeremyAnsel/XwaMission3DViewer/releases/download/v1.0.13/XwaMission3DViewer-1.0.13.zip
 https://github.com/JeremyAnsel/XwaOptEditor/releases/download/v1.0.181/XwaOptEditor-1.0.181.zip
 https://github.com/JeremyAnsel/XwaImcEditor/releases/download/v1.0.8/XwaImcEditor-1.0.8.zip
