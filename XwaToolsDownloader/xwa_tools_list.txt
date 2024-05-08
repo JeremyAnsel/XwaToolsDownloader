@@ -14,7 +14,7 @@ https://github.com/JeremyAnsel/XwaSalvageYardScoreEditor/releases/download/v1.1.
 https://github.com/JeremyAnsel/ZtPatcher/releases/download/v1.0.16/ZtCreatorPatcher-1.0.16.zip
 https://github.com/JeremyAnsel/XwaOptFlatTexturesFixer/raw/main/XwaOptFlatTexturesFixer/zip/XwaOptFlatTexturesFixer.zip
 https://github.com/JeremyAnsel/XwaOpzTrianglesFixer/raw/main/XwaOpzTrianglesFixer/zip/XwaOpzTrianglesFixer.zip
-https://github.com/JeremyAnsel/XwaExePatcher/releases/download/v1.0.41/XwaExePatcher-1.0.41.zip
+https://github.com/JeremyAnsel/XwaExePatcher/releases/download/v1.0.43/XwaExePatcher-1.0.43.zip
 https://github.com/JeremyAnsel/XwaBackupRestorer/releases/download/v1.0.10/XwaBackupRestorer-1.0.10.zip
 https://github.com/JeremyAnsel/XwaWorkspaceTools/releases/download/v1.0.3/XwaWorkspaceTools-1.0.3.zip
 https://github.com/JeremyAnsel/XwaPilotEditor/releases/download/v1.0.3/XwaPilotEditor-1.0.3.zip
