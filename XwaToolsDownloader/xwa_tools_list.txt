@@ -17,5 +17,5 @@ https://github.com/JeremyAnsel/XwaOpzTrianglesFixer/raw/main/XwaOpzTrianglesFixe
 https://github.com/JeremyAnsel/XwaExePatcher/releases/download/v1.0.45/XwaExePatcher-1.0.45.zip
 https://github.com/JeremyAnsel/XwaBackupRestorer/releases/download/v1.0.10/XwaBackupRestorer-1.0.10.zip
 https://github.com/JeremyAnsel/XwaWorkspaceTools/releases/download/v1.0.5/XwaWorkspaceTools-1.0.5.zip
-https://github.com/JeremyAnsel/XwaPilotEditor/releases/download/v1.0.5/XwaPilotEditor-1.0.5.zip
+https://github.com/JeremyAnsel/XwaPilotEditor/releases/download/v1.0.7/XwaPilotEditor-1.0.7.zip
 https://github.com/JeremyAnsel/XwaShowcaseTools/releases/download/v1.0.42/XwaShowcaseTools-1.0.42.zip
