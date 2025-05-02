@@ -9,6 +9,7 @@
     <Version>1.0.0</Version>
     <Company>Jérémy Ansel</Company>
     <Copyright>Copyright © 2021 Jérémy Ansel</Copyright>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
 
 </Project>
