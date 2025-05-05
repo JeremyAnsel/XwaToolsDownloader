@@ -6,42 +6,71 @@
         xmlns:local="clr-namespace:XwaToolsLauncher"
         mc:Ignorable="d"
         Title="Xwa Tools Launcher"
-        Height="450" Width="800"
+        Height="550"
+        Width="1000"
         UseLayoutRounding="True">
     <Window.Resources>
-        <CollectionViewSource x:Key="toolItems" Source="{Binding Tools}">
+        <CollectionViewSource x:Key="toolItems"
+                              Source="{Binding Tools}">
             <CollectionViewSource.GroupDescriptions>
                 <PropertyGroupDescription PropertyName="Category" />
             </CollectionViewSource.GroupDescriptions>
         </CollectionViewSource>
     </Window.Resources>
-    <ListView ItemsSource="{Binding Source={StaticResource toolItems}}">
+    <ListView ItemsSource="{Binding Source={StaticResource toolItems}}"
+              ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ListView.ItemsPanel>
+            <ItemsPanelTemplate>
+                <WrapPanel IsItemsHost="True" />
+            </ItemsPanelTemplate>
+        </ListView.ItemsPanel>
         <ListView.GroupStyle>
             <GroupStyle>
                 <GroupStyle.HeaderTemplate>
                     <DataTemplate>
-                        <TextBlock FontWeight="Bold" Text="{Binding Name}"/>
+                        <TextBlock FontWeight="Bold"
+                                   Text="{Binding Name}" />
                     </DataTemplate>
                 </GroupStyle.HeaderTemplate>
             </GroupStyle>
         </ListView.GroupStyle>
-        <ListView.View>
-            <GridView>
-                <GridView.Columns>
-                    <GridViewColumn Header="Category" DisplayMemberBinding="{Binding Category}" />
-                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" />
-                    <GridViewColumn Header="Launch">
-                        <GridViewColumn.CellTemplate>
-                            <DataTemplate>
-                                <Button Width="250" Click="ToolButton_Click">
-                                    <TextBlock Text="{Binding Name, StringFormat='Launch {0}'}" />
-                                </Button>
-                            </DataTemplate>
-                        </GridViewColumn.CellTemplate>
-                    </GridViewColumn>
-                    <GridViewColumn Header="Version" DisplayMemberBinding="{Binding VersionInfo.FileVersion}" />
-                </GridView.Columns>
-            </GridView>
-        </ListView.View>
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <Border BorderBrush="Black"
+                        BorderThickness="2"
+                        Width="220"
+                        Height="100">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1.5*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="1*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Column="0"
+                               Grid.Row="0"
+                               Grid.RowSpan="2"
+                               Source="{Binding ToolIcon}" />
+                        <TextBlock Grid.Column="1"
+                                   Grid.Row="0"
+                                   HorizontalAlignment="Center"
+                                   Text="{Binding Name}" />
+                        <TextBlock Grid.Column="1"
+                                   Grid.Row="1"
+                                   HorizontalAlignment="Center"
+                                   Text="{Binding VersionInfo.FileVersion}" />
+                        <Button Grid.Column="0"
+                                Grid.ColumnSpan="2"
+                                Grid.Row="2"
+                                Click="ToolButton_Click">
+                            <TextBlock Text="{Binding Name}" />
+                        </Button>
+                    </Grid>
+                </Border>
+            </DataTemplate>
+        </ListView.ItemTemplate>
     </ListView>
 </Window>

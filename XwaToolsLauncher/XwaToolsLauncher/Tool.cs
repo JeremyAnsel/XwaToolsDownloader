@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Media;
 
 namespace XwaToolsLauncher
 {
@@ -18,6 +15,7 @@ namespace XwaToolsLauncher
             Category = Path.GetFileName(Path.GetDirectoryName(path));
             ExePath = path;
             VersionInfo = FileVersionInfo.GetVersionInfo(path);
+            ToolIcon = Interop.GetLargeIcon(path);
         }
 
         public string Name { get; set; }
@@ -27,6 +25,8 @@ namespace XwaToolsLauncher
         public string ExePath { get; set; }
 
         public FileVersionInfo VersionInfo { get; set; }
+
+        public ImageSource ToolIcon { get; set; }
 
         public static List<Tool> GetToolsList(string root)
         {
