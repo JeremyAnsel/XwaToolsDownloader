@@ -11,7 +11,7 @@ https://github.com/JeremyAnsel/XwaImcEditor/releases/download/v1.0.12/XwaImcEdit
 https://github.com/JeremyAnsel/XwaSnmConverter/releases/download/v1.0.27/XwaSnmConverter-1.0.27.zip
 https://github.com/JeremyAnsel/XwaSpecRciEditor/releases/download/v1.1.0/XwaSpecRciEditor.zip
 https://github.com/JeremyAnsel/XwaSalvageYardScoreEditor/releases/download/v1.2.0/XwaSalvageYardScoreEditor.zip
-https://github.com/JeremyAnsel/ZtPatcher/releases/download/v1.0.18/ZtCreatorPatcher-1.0.18.zip
+https://github.com/JeremyAnsel/ZtPatcher/releases/download/v1.0.20/ZtCreatorPatcher-1.0.20.zip
 https://github.com/JeremyAnsel/XwaOptFlatTexturesFixer/raw/main/XwaOptFlatTexturesFixer/zip/XwaOptFlatTexturesFixer.zip
 https://github.com/JeremyAnsel/XwaOpzTrianglesFixer/raw/main/XwaOpzTrianglesFixer/zip/XwaOpzTrianglesFixer.zip
 https://github.com/JeremyAnsel/XwaExePatcher/releases/download/v1.0.45/XwaExePatcher-1.0.45.zip
