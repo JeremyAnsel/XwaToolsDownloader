@@ -18,4 +18,4 @@ https://github.com/JeremyAnsel/XwaExePatcher/releases/download/v1.0.47/XwaExePat
 https://github.com/JeremyAnsel/XwaBackupRestorer/releases/download/v1.0.12/XwaBackupRestorer-1.0.12.zip
 https://github.com/JeremyAnsel/XwaWorkspaceTools/releases/download/v1.0.9/XwaWorkspaceTools-1.0.9.zip
 https://github.com/JeremyAnsel/XwaPilotEditor/releases/download/v1.0.9/XwaPilotEditor-1.0.9.zip
-https://github.com/JeremyAnsel/XwaShowcaseTools/releases/download/v1.0.50/XwaShowcaseTools-1.0.50.zip
+https://github.com/JeremyAnsel/XwaShowcaseTools/releases/download/v1.0.53/XwaShowcaseTools-1.0.53.zip
